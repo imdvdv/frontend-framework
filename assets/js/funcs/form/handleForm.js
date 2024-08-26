@@ -1,8 +1,8 @@
 import {validationParams} from "../../conf/validationParams.js";
 import {showHidePassword} from "./showHidePassword.js";
 import {listenToSessionMessage} from "../messages/listenToSessionMessage.js";
-import {clearAllMessages} from "../messages/clearAllMessage.js";
-import {validateForm} from "../validation/validateFields.js";
+import {clearAllMessages} from "../messages/clearAllMessages.js";
+import {validateForm} from "../validation/validateForm.js";
 import {requestJSON} from "../requests/requestJSON.js";
 
 export async function handleForm(form, url, params = validationParams){
